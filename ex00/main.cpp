@@ -1,13 +1,16 @@
 #include <iostream>
 #include "Zombie.hpp"
 
+Zombie	*newZombie( std::string name );
+void	randomChump( std::string name );
+
 int	main(int ac, char **av)
 {
-	Zombie *bob = new Zombie("Bobby");
+	Zombie *ethan = new Zombie("Ethan");
 
-	bob->announce();
+	ethan->announce();
+	randomChump("Alex");
 
-	delete bob;
-
+	delete ethan;
 	return (0);
 }
