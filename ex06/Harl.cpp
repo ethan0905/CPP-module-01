@@ -32,11 +32,7 @@ void	Harl::complain( std::string level ) {
 	{
 		if (levels[i] == level)
 		{
-			while (i < 4)
-			{
-				(this->*lookUpTable[i])();
-				i++;
-			}
+			(this->*lookUpTable[i])();
 			break ;
 		}
 	}
