@@ -10,9 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Zombie
+NAME = Human
 
-SRCS = main.cpp Weapon.cpp HumanA.cpp
+SRCS = main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
 
 GCC = c++
 FLAGS = -g -Wextra -Wall -Werror -std=c++98 
