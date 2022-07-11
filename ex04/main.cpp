@@ -1,9 +1,8 @@
 #include <iostream>
 #include <fstream>
 
-int	main(int ac, char **av)
+void	replace( std::string filename, std::string s1, std::string s2 )
 {
-	(void)ac;
 	std::ifstream	infile;
 
 	infile.open(av[1]);
@@ -13,5 +12,15 @@ int	main(int ac, char **av)
 		std::cout << line << std::endl;
 
 	infile.close();
+}
+
+int	main(int ac, char **av)
+{
+	if (ac == 4)
+	{
+		replace(av[1], av[2], av[3]);
+	}
+	else
+		std::cerr << "Error: bad input." << std::endl;
 	return (0);
 }
