@@ -1,2 +1,0 @@
-ex03 : lancer humanB sans weapon -> sigv
-	=> quel est le comportement attendu ?
