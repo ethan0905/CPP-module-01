@@ -24,10 +24,10 @@ ${NAME}: ${OBJS}
 	${GCC} ${FLAGS} ${OBJS} -I includes -o ${NAME}
 
 clean:
-	rm -f ${OBJS}
+	rm -f ${OBJS} *.replace
 
 fclean:
-	rm -f ${OBJS} ${NAME}
+	rm -f ${OBJS} ${NAME} *.replace
 
 re:	fclean all
 
