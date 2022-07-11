@@ -11,5 +11,7 @@ int	main(int ac, char **av)
 	std::string	line;
 	while (std::getline(infile, line))
 		std::cout << line << std::endl;
+
+	infile.close();
 	return (0);
 }
