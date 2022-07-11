@@ -12,7 +12,7 @@
 
 NAME = Zombie
 
-SRCS = main.cpp
+SRCS = main.cpp Weapon.cpp
 
 GCC = c++
 FLAGS = -g -Wextra -Wall -Werror -std=c++98 
