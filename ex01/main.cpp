@@ -9,6 +9,7 @@ int	main(void)
 
 	for (int i = 0; i < nb; i++)
 		horde[i].announce();
+		
 	delete [] horde;
 	return (0);
 }

@@ -2,7 +2,7 @@
 
 Zombie::Zombie ( std::string name ) : _name(name) {
 
-	std::cout << "Zombie " << _name << " has been created !" << std::endl;
+	std::cout << "Zombie " << this->_name << " has been created !" << std::endl;
 	return ;
 }
 
