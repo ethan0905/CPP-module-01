@@ -4,7 +4,7 @@
 Zombie	*newZombie( std::string name );
 void	randomChump( std::string name );
 
-int	main(int ac, char **av)
+int	main()
 {
 	Zombie *ethan = new Zombie("Ethan");
 
