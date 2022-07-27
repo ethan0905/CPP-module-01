@@ -1,6 +1,2 @@
-ex03 : lancer humanB sans weapon -> sigv
-	=> quel est le comportement attendu ?
-		+ reponse : gestion preferable 
-
-ex05 : questionnements sur le fonctionnement d'une lookuptable - pour etoffer connaissances.
+HumanA et B constructeur
 
