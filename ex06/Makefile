@@ -6,7 +6,7 @@
 #    By: esafar <esafar@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/27 14:59:45 by esafar            #+#    #+#              #
-#    Updated: 2022/06/27 15:17:01 by esafar           ###   ########.fr        #
+#    Updated: 2022/08/03 20:30:47 by esafar           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = harlFilter
 SRCS = main.cpp Harl.cpp
 
 GCC = c++
-FLAGS = -g -Wextra -Wall -Werror -std=c++98 
+FLAGS = -g -Wextra -Wall -Werror -W -w -std=c++98 
 OBJS = ${SRCS:.cpp=.o}
 
 all: ${NAME}
